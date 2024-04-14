@@ -4,7 +4,7 @@ import requests
 import argparse
 
 parser=argparse.ArgumentParser()
-parser.add_argument('-b','--baseurl', help='Override url to qBittorrentrent. Defaults to http://localhost:8080/')
+parser.add_argument('-b','--baseurl', help='Override url to qBittorrent. Defaults to http://localhost:8080/')
 args=parser.parse_args()
 
 baseurl = 'http://localhost:8080/'
